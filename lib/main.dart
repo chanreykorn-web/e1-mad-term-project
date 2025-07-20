@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/ScreenWelcome.dart';
+import 'package:flutter_application_1/ScreenLogin.dart';
+
+// import 'package:flutter_application_1/ScreenWelcome.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Color(0xfffdfefe),
         fontFamily: 'Outfit', // set background color here
       ),
-      home: ScreenWelcome(),
+      home: Screenlogin(),
     );
   }
 }
